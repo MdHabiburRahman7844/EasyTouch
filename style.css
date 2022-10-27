@@ -1,0 +1,315 @@
+@font-face {
+    font-family: habib;
+    src: url(font/AdineKirnberg-Alternate.ttf);
+}
+@font-face {
+    font-family: habib1;
+    src: url(font/ChopinScript.ttf);
+}@font-face {
+    font-family: habib2;
+    src: url(font/Li\ Padmasetu\ Unicode.ttf);
+}
+@font-face {
+    font-family: habib3;
+    src: url(font/Li\ Mainak\ Buniyadi\ Unicode.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding: 10px 15px;
+}
+.hotline{
+    margin-left: 20px;
+    font-size: 14px;
+    display: flex;
+}
+.hotline h5{
+    font-size: 15px;
+    color: #646464;
+    margin-right: 3px;
+}
+.hotline span{
+    color: #017ECA;
+    font-size: 14px;
+    margin-top: 3px;
+    font-weight: 900;
+}
+.hotline p{
+ margin-left: 300px;
+ color: #8E47E3;
+ font-family: habib3;
+}
+.sing{
+    display: flex;
+   
+}
+.sing .logo img{
+    width: 80px;
+    padding-left: 15px;
+}
+.register{
+    display: flex;
+    margin: auto 620px;
+    margin-right: 0;
+}
+.register p{
+    color: #646464;
+    display: flex;
+    margin-top: 5px;
+    transition: .5s;
+}
+.register i{
+    font-size: 24px;
+    transition: .5s;
+    margin-left: 5px;
+}
+.register p:hover{
+    color: black;
+    cursor: pointer;
+    font-family: habib3;
+}
+.register h2{
+    border: 1px solid #017ECA;
+    width: 180px;
+    background-color:#017ECA ;
+    font-size: 18px;
+    padding: 5px 5px;
+    border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 10px;
+    transition: .5s;
+}
+.register h2:hover{
+    background-color: #0d659b;
+    cursor: pointer;
+}
+.register h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #646464;
+    border-left: 1px solid #646464;
+    padding-left: 10px;
+    transition: .5s;
+    font-family: habib2;
+}
+.register h3:hover{
+    color: black;
+    cursor: pointer;
+}
+.container1{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav{
+    background-color: #0788d8;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.container1 .nav ul{
+    display: flex;
+    padding: 15px;
+    list-style: none;
+}
+.container1 .nav ul li{
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 3px;
+    font-family: habib2;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+}
+.container1 .nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.container1 .nav ul li:hover{
+    background-color: #1c70a5;
+}
+.headline{
+    display: flex;
+    margin: 0 auto;
+}
+.headline p{
+    color:#646464;
+    font-size: 14px;
+    font-family: habib3;
+    padding: 10px;
+}
+.headline i{
+    font-size: 16px;
+    color: red;
+    margin-left: 0;
+    padding: 10px;
+    margin-top: 5px;
+}
+.headline span{
+    padding: 10px;
+    font-family: habib3;
+    margin-right: 15px;
+    color: #8E47E3;
+}
+.banner-post{
+    display: block;
+    text-align: center;
+    background-color: rgb(175, 175, 175);
+    padding: 15px;
+    border-radius: 5px;
+}
+.banner-post p{
+    font-size: 18px;
+    font-family: habib3;
+}
+.banner-post i{
+    margin-left: 10px;
+    color: red;
+}
+.banner-post a{
+    color:#017ECA;
+    font-weight: 600;
+}
+.banner{
+    display: flex;
+}
+.banner img{
+    padding-top: 20px;
+}
+.banner .sub-b img{
+    width: 280px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.banner-p{
+    display: flex;
+}
+.banner-p img{
+    width: 255px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.banner-p img:first-child{
+    margin-left: 0;
+}
+
+.social-icon{
+    width: 60px;
+    display: block;
+    position: fixed;
+    left: 50px;
+    bottom: 250px;
+}
+.social-icon i{
+    font-size: 30px;
+    cursor: pointer;
+    color: red;
+   
+}
+.social-icon i:first-child{
+    color: blue;
+    border-radius: 50%;
+}
+.social-icon i:nth-child(2){
+    color: green;
+    padding-top: 20px;
+}
+.social-icon i:last-child{
+    color: blue;
+}
+.social-icon i:nth-last-child(2){
+    color: blue;
+}
+.email{
+    font-size: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+}
+.email i{
+    color: blue;
+}
+.offer{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.offer h2{
+    color: #646464;
+    font-family: habib2;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.offer p{
+    color: #8E47E3;
+    font-family: habib3;
+}
+.product{
+    display: inline-block;
+    margin: 5px;
+}
+.product .img1 img{
+    width: 150px;
+}
+.product .price{
+    margin-left: 30px;
+    color: #8E47E3;
+}
+.price i{
+    margin-right: 5px;
+    color: #8E47E3;
+}
+.price p, i{
+    margin-right: 10px;
+    color: black;
+}
+.btn{
+    display: flex;
+    margin: 20px auto;
+}
+.btn h2{
+    background-color: #017ECA;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-family: habib2;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn1{
+    display: flex;
+    margin: 0 auto;
+}
+.btn1 h2{
+    font-size: 30px;
+    color: #646464;
+    font-family: habib2;
+    cursor: pointer;
+    font-weight: 400;
+    border-bottom: 1px solid #646464;
+}
+.treding{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.treding .img img{
+    width: 320px;
+    padding: 15px;
+}
+footer p{
+    text-align: center;
+    color: #2b2a2a;
+    padding: 10px;
+    background-color:#0788d8;
+}
